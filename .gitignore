@@ -1,0 +1,5 @@
+node_modules/
+apps/app/dist/
+apps/app/.project-name
+.env
+*.local
