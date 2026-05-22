@@ -3,7 +3,7 @@ import { resolve } from 'path'
 import { VitePWA } from 'vite-plugin-pwa'
 
 export default defineConfig({
-  base: './',
+  base: '/unicorn-jump-game/',
   plugins: [
     VitePWA({
       registerType: 'autoUpdate',
@@ -15,7 +15,7 @@ export default defineConfig({
         background_color: '#000000',
         display: 'fullscreen',
         orientation: 'portrait',
-        start_url: './',
+        start_url: '/unicorn-jump-game/',
         icons: [
           {
             src: 'icon.svg',
